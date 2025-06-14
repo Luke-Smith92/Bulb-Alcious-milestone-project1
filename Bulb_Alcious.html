@@ -6,21 +6,37 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <style>
-            h1 {text-align: center; font-size: 120px;font-family:fantasy;}
-            p {text-align: center;}
+          h1 {text-align: center; font-size: 120px;font-family:fantasy;}
+            .p1 {text-align: center; color: #110546; margin-left:150px; margin-right: 150px;}
+            body {background: powderblue;}
             div {text-align: center;}
-            h2 {text-align: center;}
-            .h2bulbs {text-align:left; color:black; font-size: 30px; display:inline-block ;}
-            .h2cutf {text-align:center; color:black; font-size: 30px; display:inline-block;}
-            header {position:sticky; top:0; padding:10px 16px; background-color:rgb(174, 174, 219); color: lightcyan;}
+            h2 {text-align: center; font-size:40px; color:#110546}
+            h4 {text-align: center; font-size:23px; color:#110546}
+            header {position:sticky; top:0; padding:10px 16px; background-color:#110546; color:  powderblue;}
             ul {list-style-type: none;}
-            a {color:powderblue; text-decoration: none; text-align: top;}
+            a {color:powderblue; text-decoration: none; text-align: top; Font-size:70px;}
+            .web-name{color: #110546; text-decoration: none; text-align: top; Font-size:70px;}
             .nav-list {list-style-type: none;}
             .top-nav {overflow: hidden;}
-            .top-nav a {float: right; text-align: center; padding:14px 16px; font-size: 17px; color:black}
-            .h2 {font-family:}
-            .horizontalgap { float: left; overflow: hidden; height: 1px; width: 0px;}
+            .top-nav a {float: right; text-align: center; padding:14px 16px; font-size: 17px; color: powderblue;}
+            .horizontalgap {float: left; overflow: hidden; height: 1px; width: 0px;}
+            ol {list-style: none;}
+            .li {display: inline-block; margin-right: 10PX;}
+            h3 {font-size: 60px; color:#110546}
+            .h2bulbs {font-size: 30px; display:inline-block; padding:0;}
+            .h2cutf {font-size: 30px; display:inline-block;}
+            .container {display:flex; flex-direction:row; flex-wrap:wrap; justify-content:space-around; align-items:center;}
+            .bulbs-box {width: 33%; margin: 1rem 0; display: inline-block;}
+            .cut-flowers {width: 33%; margin: 1rem 0; display: inline-block;}
+            #text {text-align:center; color:#110546}
+            #bulbs {padding: 1rem 0; margin-bottom: 80px;}
+            #flowers {padding: 1rem 0; margin-bottom: 80px;}
 
+  
+
+
+
+            
          </style>
 </head>
 
@@ -35,58 +51,159 @@
   <ul  class="nav-list" id="nav-list">
   <li><a href= "Contact page.html">Contact</a></li>
   <li><a href="My account.html">My Account</a></li>
-  <li><a href="Sign up.html">Sign-up</a></li>
+  <li><a href="sign up login 2.html">Sign-up</a></li>
+  <li><a href="Basket.html">Basket</a></li>
   </ul>
 </div>
 </header>
 
-<hr>
+
 
 <div>
-<p> Welcome all bulb lovers to a family run website, dedicated in everything that grows from a bulb. Some of are favourites are spring Daffodiles, to the majestic summer lilies, and the deep blue hyacinth for autumn. 
-<br>
+  <h2>Welcome All</h2>
+<p class="p1">To our family run Flower buisness, dedicated in everything small that grows from the ground! Bulbs mostly but we offer cut flower boxes too. Some of our favourites are spring Daffodiles, to the majestic summer lilies, and the deep blue hyacinth for autumn. 
   We supply a tiny amount of happyiness all year round when you see the flowers blooming. 
-  <br>
   Not only do we supply bulbs but also lovingly cut flowers for all types of occasions, from weddings to anniversarys and the day of love valentines day. Expertly cut and arranged, delivered to your door.</p>
 </div>
 <div> 
-<h2>Why choose us for bulbs or cut flowers!</h2>
-  <p>All our bulbs and flowers are grown on British soil, on a 25acre plot of land, in the beautiful countryside of summerset.
+<h2>Why choose us?</h2>
+  <p class="p1">All our bulbs and flowers are grown on British soil, on a 25acre plot of land, in the beautiful countryside of summerset.
     Its a small family run buisness with a passion for all things green. We have a wide range of cut flowers, from roses to tulips, and everything in between. We also offer a <strong>subscription service</strong> for regular deliveries.
-  <p>Our flowers are hand-picked and arranged by our expert florists, ensuring that you receive the freshest and most beautiful blooms.</p>   
-  <p>We are proud to say that we are the cheapest bulb and cut flower specialist in the UK. We have a wide range of bulbs and flowers to choose from, all at competitive prices. We also offer free delivery on orders over £50.</p>
-  <p>We are committed to sustainability and reducing our carbon footprint. We use eco-friendly packaging and all our bulbs and flowers are grown using sustainable farming practices. We also have a solar farm on site, which generates 90% of our electricity. This means that we can keep our costs down and pass the savings
+  <p class="p1">Our flowers are hand-picked and arranged by our expert florists, ensuring that you receive the freshest and most beautiful blooms.</p>   
+  <p class="p1">We are proud to say that we are the cheapest bulb and cut flower specialist in the UK. We have a wide range of bulbs and flowers to choose from, all at competitive prices. We also offer free delivery on orders over <strong>£50</strong>.</p>
+  <p class="p1">We are committed to sustainability and reducing our carbon footprint. We use eco-friendly packaging and all our bulbs and flowers are grown using sustainable farming practices. We also have a solar farm on site, which generates 90% of our electricity. This means that we can keep our costs down and pass the savings
 on to you.</p>
 </div>    
     
 <hr>
 <!-- Images sourced from Pexels.com-->
-<div id="menu">
-<h2 class="h2bulbs"><a href= #bulbs>Bulbs</a> <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-hilaryh-1031413.jpg" alt="https://www.pexels.com/photo/photo-of-yellow-flowers-1031413/" width="200px"></h2> <h2 class="h2cutf"><a href= #cutflowers>Cut Flowers</a> <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-jmark-250716.jpg" Alt ="https://www.pexels.com/photo/close-up-of-multi-colored-tulips-250716/" width="200px"></h2>
-</div>
-
-
-
 
  <div id="bulbs">
   <h3>Bulbs</h3>
   <label for="bulbs"></label>
   <input list="types of bulbs">
   <datalist id="types of bulbs">
-    <option value="allium"></option>
     <option value="Crocus"></option>
     <option value="Daffodil"></option>
-    <option value="hyacinth"></option>
-    <option value="tulip"></option>
+    <option value="Lillies"></option>
    </datalist>
-
-   
-
-
+ </div>
+ <section id="bulbs">
+  <h4>Daffodil</h4>
+  <br>
+  <div div class="bulbs-box" id="text">
+    <h6>Angel Tears</h6>
+    <br>
+    <img src="">
+    <p></p>
   </div>
+  
+    <div class="bulbs-box" id="text">
+      <h6>Paperwhite</h6>
+      <br>
+      <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-jennifer-r-1259086-31182645.jpg" width="200" height="200">
+      <br>
+      <p>Smells so good.</p>
+    </div>
+    <diV class="bulbs-box" id="text">
+    <h6>Jonquil</h6>
+    <br>
+    <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\Lisa from pexels.jpg" Width="200" height="200">
+    <p></p>
+    </div>
+    </section>
+
+<section id="bulbs">
+  <h4>Crocus</h4>
+  <diV class="bulbs-box" id="text">
+    <h6>Autumn Crocus</h6>
+    <img>
+    <p></p>
+  </diV>
+   <diV class="bulbs-box" id="text">
+    <h6>Crocus flavus</h6>
+    <img>
+    <p></p>
+  </diV>
+   <diV class="bulbs-box" id="text">
+    <h6>Crocus Lydius</h6>
+    <img>
+    <p></p>
+  </diV>
+</section>
+
+<section id="bulbs">
+  <h4>Lillies</h4>
+  <diV class="bulbs-box" id="text">
+    <h6>Stargazer</h6>
+    <img>
+    <p></p>
+  </diV>
+   <diV class="bulbs-box" id="text">
+    <h6>Tiger Lily</h6>
+    <img>
+    <p></p>
+    <button>£10.50 for 10</button>
+  </diV>
+   <diV class="bulbs-box" id="text">
+    <h6>Royal Lily</h6>
+    <img>
+    <p></p>
+  </diV>
+</section>
+  
+
+
   <div id="cutflowers">
   <h3>Cut Flowers</h3>
-  </div>
+  <label for="cutflowers"></label>
+  <input list="cut flower boxes">
+  <datalist id="cut flower boxes">
+    <option value="Man Cut"></option>
+    <option value="Bright cut"></option>
+    <option value="Radiant in White"></option>
+    <option value="Moody Storms"></option>
+    <option value="Just Roses"></option>
+    <option value="Pink cut"></option>
+   </datalist>
+   </div>
+
+   <section id="flowers">
+  <h4></h4>
+  <diV class="cut-flowers" id="text">
+    <h6>Bright Cut</h6>
+    <img>
+    <p>Vibrant flowers too brighten up anyones day or home.</p>
+  </diV>
+   <diV class="cut-flowers" id="text">
+    <h6>Just Roses</h6>
+    <img>
+    <p>Just timeless to give to that one person you <strong>Love</strong> more than life itself!!</p>
+  </diV>
+   <diV class="cut-flowers" id="text">
+    <h6>Radiant in White</h6>
+    <img>
+    <p>Innocent and pure! These flowers will look immaculate, and smell like Heaven.</p>
+  </diV>
+</section>
+<section id="flowers">
+<h4></h4>
+  <diV class="cut-flowers" id="text">
+    <h6>Moody Storms</h6>
+    <img>
+    <p>Deep blues and Purples with deep fragrances, that remind you of stormy nights.</p>
+  </diV>
+   <diV class="cut-flowers" id="text">
+    <h6>Man Cut</h6>
+    <img>
+    <p>Just like Old Spice smells and looks great that no <strong>Man</strong> can resist.</p>
+  </diV>
+   <diV class="cut-flowers" id="text">
+    <h6>Pink cut</h6>
+    <img>
+    <p>Pretty in pink. <strong>We will donate £1 to cancer resaerch,</strong> Everytime this cut is bought.</p>
+  </diV>
+</section>
   
 
     
@@ -95,4 +212,9 @@ on to you.</p>
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 </body>
+<footer>
+  <div>
+
+  </div>
+</footer>
 </html>
