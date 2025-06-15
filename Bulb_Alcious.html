@@ -7,12 +7,12 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <style>
           h1 {text-align: center; font-size: 120px;font-family:fantasy;}
-            .p1 {text-align: center; color: #110546; margin-left:150px; margin-right: 150px;}
-            body {background: powderblue;}
+            .p1 {text-align: center; color:powderblue; margin-left:150px; margin-right: 150px;}
+            body {background: #110546;}
             div {text-align: center;}
-            h2 {text-align: center; font-size:40px; color:#110546}
-            h4 {text-align: center; font-size:23px; color:#110546}
-            header {position:sticky; top:0; padding:10px 16px; background-color:#110546; color:  powderblue;}
+            h2 {text-align: center; font-size:40px; color:powderblue}
+            h4 {text-align: center; font-size:23px; color:powderblue}
+            header {position:sticky; top:0; padding:10px 16px; background-color:#110546; color:  powderblue; border: 8px solid powderblue; border-right:0px; border-top:0px; border-left:0px;}
             ul {list-style-type: none;}
             a {color:powderblue; text-decoration: none; text-align: top; Font-size:70px;}
             .web-name{color: #110546; text-decoration: none; text-align: top; Font-size:70px;}
@@ -22,18 +22,24 @@
             .horizontalgap {float: left; overflow: hidden; height: 1px; width: 0px;}
             ol {list-style: none;}
             .li {display: inline-block; margin-right: 10PX;}
-            h3 {font-size: 60px; color:#110546}
+            h3 {font-size: 60px; color:powderblue}
             .h2bulbs {font-size: 30px; display:inline-block; padding:0;}
             .h2cutf {font-size: 30px; display:inline-block;}
             .container {display:flex; flex-direction:row; flex-wrap:wrap; justify-content:space-around; align-items:center;}
             .bulbs-box {width: 33%; margin: 1rem 0; display: inline-block;}
             .cut-flowers {width: 33%; margin: 1rem 0; display: inline-block;}
-            #text {text-align:center; color:#110546}
+            #text {text-align:center; color:powderblue}
             #bulbs {padding: 1rem 0; margin-bottom: 80px;}
             #flowers {padding: 1rem 0; margin-bottom: 80px;}
-            img {border: 8px solid #110546;}
+            img {border: 8px solid powderblue}
             .img-container {position:relative; Text-align:center; color:powderblue;}
             .img-centered {position:absolute; text-align:center; top:15%; left:40%}
+            .container1 {width: 900px; max-width: 90vw; margin: auto; text-align: center; padding-top: 10px;}
+            svg {position: absolute; top: 70px; right: 70px;}
+            .icon-cart {position: relative;}
+            span {width: 40px; display: flex; height: 40px; background-color: none; justify-content: center; align-items:center; color:powderblue; border-radius: 50%; position: absolute; top: 22%; right: 45px; color:red; font-size:20px; font:bold;}
+
+
 
   
 
@@ -52,16 +58,21 @@
     </container>   
     <div class="img-centered" id="header">   
     <h1><centre><a href="Bulb_Alcious.html">Bulb-Alicious</a></centre></h1>
-    
 </div>
+    
 <!--Top Nav bar-->
 <div class="top-nav a">
   <ul  class="nav-list" id="nav-list">
-  <li><a href= "Contact page.html">Contact</a></li>
+  <li><a href= "Contact page.html">About/Contact us</a></li>
   <li><a href="My account.html">My Account</a></li>
   <li><a href="sign up login 2.html">Sign-up</a></li>
-  <li><a href="Basket.html">Basket</a></li>
   </ul>
+</div>
+<div class="item-cart"> 
+  <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+</svg>
+  <span class="item-cartspan">0</span>
 </div>
 </header>
 
@@ -73,15 +84,7 @@
   We supply a tiny amount of happyiness all year round when you see the flowers blooming. 
   Not only do we supply bulbs but also lovingly cut flowers for all types of occasions, from weddings to anniversarys and the day of love valentines day. Expertly cut and arranged, delivered to your door.</p>
 </div>
-<div> 
-<h2>Why choose us?</h2>
-  <p class="p1">All our bulbs and flowers are grown on British soil, on a 25acre plot of land, in the beautiful countryside of summerset.
-    Its a small family run buisness with a passion for all things green. We have a wide range of cut flowers, from roses to tulips, and everything in between. We also offer a <strong>subscription service</strong> for regular deliveries.
-  <p class="p1">Our flowers are hand-picked and arranged by our expert florists, ensuring that you receive the freshest and most beautiful blooms.</p>   
-  <p class="p1">We are proud to say that we are the cheapest bulb and cut flower specialist in the UK. We have a wide range of bulbs and flowers to choose from, all at competitive prices. We also offer free delivery on orders over <strong>£50</strong>.</p>
-  <p class="p1">We are committed to sustainability and reducing our carbon footprint. We use eco-friendly packaging and all our bulbs and flowers are grown using sustainable farming practices. We also have a solar farm on site, which generates 90% of our electricity. This means that we can keep our costs down and pass the savings
-on to you.</p>
-</div>    
+
     
 <hr>
 <!-- Images sourced from Pexels.com-->
@@ -104,20 +107,25 @@ on to you.</p>
     <br>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-larissafarber-28930893 (1).jpg" width="200" height="200">
     <p>Delicate dropping heads, with a sweet fragrance</p>
+    <div Class="price">30 for £15</div>
+    <button class="add to basket">Add to basket</button>
   </div>
   
     <div class="bulbs-box" id="text">
       <h6>Paperwhite</h6>
       <br>
       <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-jennifer-r-1259086-31182645.jpg" width="200" height="200">
-      <br>
       <p>Simple and elegant with crisp white, single blooms.</p>
+      <div Class="price">30 for £20</div>
+      <button class="add to basket">Add to basket</button>
     </div>
     <diV class="bulbs-box" id="text">
     <h6>Jonquil</h6>
     <br>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\Lisa from pexels.jpg" Width="200" height="200">
     <p>Richly coloured golden yellow fragrant dwarf daffodil.</p>
+    <div Class="price">30 for £10</div>
+    <button class="add to basket">Add to basket</button>
     </div>
     </section>
 
@@ -127,16 +135,22 @@ on to you.</p>
     <h6>Autumn Crocus</h6>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-cathy-b-748462208-31116905.jpg" width="200" height="200">
     <p>Light-Deep Purple, To add some colour to any garden during Autumn/winter.</p>
+    <div Class="price">25 for £10</div>
+    <button class="add to basket">Add to basket</button>
   </diV>
    <diV class="bulbs-box" id="text">
     <h6>Crocus flavus</h6>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-gutjahr-aleksandr-3045334-11329235.jpg" width="200" height="200">
     <p>Fragrant, bright deep yellow flowers opening with the relatively broad, green leaves.</p>
+    <div Class="price">25 for £15 </div>
+    <button class="add to basket">Add to basket</button>
   </diV>
    <diV class="bulbs-box" id="text">
     <h6>Crocus Lydius</h6>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-Gavin bush.jpg" width="200" height="200">
     <p>Light blue, petals contrasting with a deep yellow throat to present a beautiful flower.</p>
+    <div Class="price">25 for £15</div>
+    <button class="add to basket">Add to basket</button>
   </diV>
 </section>
 
@@ -146,17 +160,22 @@ on to you.</p>
     <h6>Stargazer</h6>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-cody-157460211-10737505.jpg" width="200" height="200">
     <p>Fragrant, and leaves the mind with images of deepspace and its beauty.</p>
+    <div Class="price">20 for £30</div>
+    <button class="add to basket">Add to basket</button>
   </diV>
    <diV class="bulbs-box" id="text">
     <h6>Tiger Lily</h6>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-tim-dusenberry-2385423-13012158.jpg" width="200" height="200">
     <p>Deep orange with dark spots, and fierce like a Tiger.</p>
-    <button>£10.50 for 10</button>
+    <div Class="price">20 for £35</div>
+    <button class="add to basket">Add to basket</button>
   </diV>
    <diV class="bulbs-box" id="text">
     <h6>Royal Lily</h6>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-unaizat97-10051509.jpg" width="200" height="200">
     <p>Pure white, with yellow throat and subtle fragrance.</p>
+    <div Class="price">20 for £35</div>
+    <button class="add to basket">Add to basket</button>
   </diV>
 </section>
   
@@ -182,16 +201,22 @@ on to you.</p>
     <h6>Bright Cut</h6>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-chiaroscuro-154214185-11848180.jpg" width="200" height="200">
     <p>Vibrant flowers too brighten up anyones day or home.</p>
+    <div Class="price">£25</div>
+    <button class="add to basket">Add to basket</button>
   </diV>
    <diV class="cut-flowers" id="text">
     <h6>Just Roses</h6>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-arif-4595724.jpg" width="200" height="200">
     <p>Just timeless to give to that one person you <strong>Love</strong> more than life itself!!</p>
+    <div Class="price">£45</div>
+    <button class="add to basket">Add to basket</button>
   </diV>
    <diV class="cut-flowers" id="text">
     <h6>Radiant in White</h6>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-didi-lecatompessy-2149441489-30824121.jpg" width="200" height="200">
     <p>Innocent and pure! These flowers will look immaculate, and smell like Heaven.</p>
+    <div Class="price">£35</div>
+    <button class="add to basket">Add to basket</button>
   </diV>
 </section>
 <section id="flowers">
@@ -200,16 +225,22 @@ on to you.</p>
     <h6>Moody Storms</h6>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\ai-generated-9548396_1280.jpg" width="200" height="200">
     <p>Deep blues and Purples with deep fragrances, that remind you of stormy nights.</p>
+    <div Class="price">£30</div>
+    <button class="add to basket">Add to basket</button>
   </diV>
    <diV class="cut-flowers" id="text">
     <h6>Man Cut</h6>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-eva-bronzini-5501282.jpg" width="200" height="200">
     <p>Just like Old Spice smells and looks great that no <strong>Man</strong> can resist.</p>
+    <div Class="price">£30</div>
+    <button class="add to basket">Add to basket</button>
   </diV>
    <diV class="cut-flowers" id="text">
     <h6>Pink cut</h6>
     <img src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-antonmislawsky-226145.jpg" width="200" height="200">
     <p>Pretty in pink. <strong>We will donate £1 to cancer resaerch,</strong> Everytime this cut is bought.</p>
+    <div Class="price">£32</div>
+    <button class="add to basket">Add to basket</button>
   </diV>
 </section>
   
