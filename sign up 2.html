@@ -7,7 +7,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <style>
             h1 {text-align: center; font-size: 120px; font-family:fantasy;}
-            header {position:sticky; top: 0px; bottom:40px padding:10px 16px; background-color: #110546; color:  powderblue;} 
+            header {position:sticky; top: 0px; bottom:40px padding 10px 16px; background-color: #110546; color:  powderblue; border: 8px solid powderblue; border-right:0px; border-top:0px; border-left:0px;} 
             ul {list-style-type: none;}
             a {color:powderblue; text-decoration: none; text-align: top; Font-size:70px;}
             .nav-list {list-style-type: none;}
@@ -29,6 +29,13 @@
             .left-box button:hover {font-weight: 500; background:#000; color:#fff;}
             .right-box button {width:100%; Background: #000; padding: 10px; border: 0; outline:none; font-size: 16px; margin-top: 20px; cursor: pointer; transition: 0.6s; color:#fff}
             .right-box button:hover {font-weight: 500; background: powderblue; color:#000;}
+            .img-container {position:relative; Text-align:center; color:powderblue;}
+            .img-centered {position:absolute; text-align:center; top:15%; left:40%}
+            img {border: 8px solid powderblue}
+            svg {position: absolute; top: 70px; right: 70px;}
+            .icon-cart {position: relative;}
+            span {width: 40px; display: flex; height: 40px; background-color: none; justify-content: center; align-items:center; color:powderblue; border-radius: 50%; position: absolute; top: 22%; right: 45px; color:red; font-size:20px; font:bold;}
+
 
 
 
@@ -38,18 +45,27 @@
 
 <body>
  <header class="header">
-    <div class="header" id="header">   
+    <container class="img-container">
+      <div>
+        <img width="850" height="250" src="C:\Users\lsmit\OneDrive\Imagies for milestone project 1\pexels-pixabay-325944.jpg">
+      </div>
+    </container>   
+    <div class="img-centered" id="header">   
     <h1><centre><a href="Bulb_Alcious.html">Bulb-Alicious</a></centre></h1>
-    
 </div>
 <!--Top Nav bar-->
 <div class="top-nav a">
   <ul  class="nav-list" id="nav-list">
-  <li><a href= "Contact page.html">Contact</a></li>
+  <li><a href= "Contact page.html">About/Contact us</a></li>
   <li><a href="My account.html">My Account</a></li>
-  <li><a href="Sign up.html">Sign-up</a></li>
-  <li><a href="Basket.html">Basket</a></li>
+  <li><a href="Sign up login 2.html">Sign-up</a></li>
   </ul>
+</div>
+<div class="item-cart"> 
+  <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+</svg>
+  <span class="item-cartspan">0</span>
 </div>
 </header>
 
@@ -72,6 +88,7 @@
     <input type="email" name="email" Placeholder="Email Address" id="email" class="right-input-box" required>
     <input type="password" name="password" Placeholder="Password" id="password" class="right-input-box" required>
     <button type="submit" value="login" href="My account.html"> LOGIN </button>
+    <label> please note - Login button doesn't work!!</label>
 </div>
 </div>
 </div>
