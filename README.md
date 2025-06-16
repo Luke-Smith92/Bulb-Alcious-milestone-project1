@@ -2,14 +2,25 @@ Title
 Bulb-Alicious Readme. 
 
 Intro
-whats the web page for. 
-Its designed for a small (fake buisness) that has a passion for flowers. 
-For easier purchase of home grown Bulbs and cut flowers in the uk from a UK business. 
-Who is the website designed for?
-The website is designed for ease of use for all people that have a little green fingers in them. 
+The website is designed for individuals who have a passion for gardening, specifically those interested in growing flowers at home. Here's a breakdown of who the website is intended for:
+Garden Enthusiasts: People who enjoy gardening as a hobby and want to add beautiful, home-grown flowers to their gardens.
+Flower Lovers: Those who may not have much gardening experience but appreciate flowers and are looking for easy-to-purchase bulbs or cut flowers.
+DIY Gardeners: Individuals who prefer to grow their own flowers at home and might be looking for specific varieties of bulbs or plants.
+UK Residents: Since the business is based in the UK, the website is primarily designed for UK customers, making it easier for them to order locally grown flowers and bulbs.
+Ease-of-Use Seekers: The website is designed with simplicity in mind, so even those with minimal technical skills or experience shopping online can navigate it without trouble.
+Eco-conscious Shoppers: People who are interested in sustainable gardening practices and want to buy from a local, environmentally-minded business.
 
+Main Features to Consider:
+Simple Navigation: The site should have clear categories like "Bulbs," "Cut Flowers," "Best Sellers," and "Seasonal Specials."
+
+Search Functionality: A search bar for customers to find specific flower varieties or types of bulbs easily.
+
+User-Friendly Checkout: An easy and smooth checkout process with multiple payment options.
+
+Flower Care Guides: Helpful information on how to plant and care for the flowers, bulbs, or cut flowers purchased.
+
+Local Focus: Emphasizing that the flowers are grown locally in the UK, which could be important for customers looking to support local businesses.
 features
-easy navigation of the products
 clear images, and prices.
 Sign-up page
 contact page
@@ -33,9 +44,10 @@ Tested most of the code with visual-coder.
 
 
 
-
-
 Deployment
+Struggled to figure out if the website was responsive enough. Not really clear on how to test it in certain areas. 
+Also didnt create a seperate CSS page until near the end and when i transfer the data over, it doesnt do what its supposed to do. 
+I Tried to run the code through various things and for some reason it didnt work. unsure if it because i missed a step or did somthing wrong.
 
 
 
