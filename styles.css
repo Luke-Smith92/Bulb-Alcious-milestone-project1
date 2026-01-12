@@ -1,0 +1,259 @@
+/* === General Reset === */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e8f5e9; /* light gardening green */
+    color: #2e2e2e;
+}
+
+/* === Header === */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #a5d6a7;
+    border-bottom: 4px solid #66bb6a;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+}
+
+.img-container img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border: 6px solid #4caf50; /* border around header image */
+    border-radius: 6px;
+}
+
+.img-centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+.img-centered h1 a {
+    color: #ffffff;
+    font-family: fantasy;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+/* === Top navigation === */
+.top-nav {
+    background-color: #81c784;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.top-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.top-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* === Main content === */
+main {
+    padding: 2rem;
+}
+
+/* === Welcome Section / Contact Section === */
+.welcome h2, .contact h2 {
+    font-size: 36px;
+    color: #1b5e20;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.welcome p, .contact p {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* === Bulbs & Flowers Sections === */
+section h3 {
+    font-size: 32px;
+    color: #2e7d32;
+    margin: 2rem 0 1rem;
+    text-align: center;
+}
+
+section h4 {
+    font-size: 24px;
+    color: #388e3c;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.bulb-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bulb-box {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.bulb-box img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 0.8rem;
+}
+
+.bulb-box strong {
+    display: block;
+    font-size: 18px;
+    color: #2e7d32;
+    margin-bottom: 0.5rem;
+}
+
+.bulb-box p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* === Signup Page === */
+.account {
+    width: 100%;
+    min-height: 100vh;
+    background: #e8f5e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.account h2 {
+    color: #1b5e20;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.signup-box {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Left Box (Sign-Up) */
+.left-box {
+    padding: 50px;
+    background: #66bb6a;
+    flex-basis: 50%;
+    flex-grow: 1;
+    color: #ffffff;
+}
+
+.left-input-box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffffff;
+    outline: none;
+    color: #000;
+    font-size: 14px;
+    background: transparent;
+    border-radius: 4px;
+}
+
+.left-box button {
+    width: 100%;
+    background: #ffffff;
+    color: #2e7d32;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.left-box button:hover {
+    background: #2e7d32;
+    color: #ffffff;
+}
+
+/* Right Box (Login) */
+.right-box {
+    padding: 50px;
+    flex-basis: 50%;
+    flex-grow: 1;
+    background: #ffffff;
+    color: #2e7d32;
+}
+
+.right-input-box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #2e7d32;
+    outline: none;
+    font-size: 14px;
+    border-radius: 4px;
+    background: transparent;
+}
+
+.right-box button {
+    width: 100%;
+    background: #2e7d32;
+    color: #ffffff;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.right-box button:hover {
+    background: #66bb6a;
+    color: #2e7d32;
+}
+
+/* === Footer === */
+footer {
+    background-color: #81c784;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
