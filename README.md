@@ -15,23 +15,6 @@ Transforming the site into a full e-commerce store, allowing users to purchase b
 **Manual Testing**
 Most of the code was tested in Visual Studio Code, checking the layout, image display, and responsiveness on different screen sizes.
 
-**Deployment Challenges**
-Deploying the website required careful consideration of mobile responsiveness and consistent styling across pages. Some initial issues occurred with CSS conflicts and image alignment, which have since been resolved. Linking the CSS separately for all pages was crucial to maintain a unified design. Testing on mobile and tablet formats ensured that content scales correctly and navigation remains intuitive.
-
-**Bugs and Fixes**
-Sign-Up Page Layout: The table layout initially caused a large gap between the sign-up and login boxes. Fixed by resolving conflicting styles.
-Cart Functionality: Attempted to implement a basket but removed it to preserve the page styling.
-Images Alignment: Inline display issues with images and text were fixed by revisiting CSS layout methods.
-Social Media Links: Initial syntax errors prevented links from working. Fixed by correcting anchor tags and classes.
-
-**User Feedback**
-The site has been tested by friends and family for clarity and ease of navigation. Feedback indicated that the navigation is intuitive, the images are visually appealing, and the text is easy to read. Suggestions included adding more information about growing bulbs, which has been noted as a future improvement.
-
-**Mentions for Help**
-GreatStack YouTube Tutorials: Assisted in building the sign-up page. YouTube link
-Code Institute Resources and Slack
-W3Schools## Screenshots
-
 ### Desktop Views
 
 **Index Page**
@@ -53,6 +36,25 @@ W3Schools## Screenshots
 
 **About / Contact Page (Mobile)**
 ![About Page Mobile](images/about-us-mobile.png)
+
+
+**Deployment Challenges**
+Deploying the website required careful consideration of mobile responsiveness and consistent styling across pages. Some initial issues occurred with CSS conflicts and image alignment, which have since been resolved. Linking the CSS separately for all pages was crucial to maintain a unified design. Testing on mobile and tablet formats ensured that content scales correctly and navigation remains intuitive.
+
+**Bugs and Fixes**
+Sign-Up Page Layout: The table layout initially caused a large gap between the sign-up and login boxes. Fixed by resolving conflicting styles.
+Cart Functionality: Attempted to implement a basket but removed it to preserve the page styling.
+Images Alignment: Inline display issues with images and text were fixed by revisiting CSS layout methods.
+Social Media Links: Initial syntax errors prevented links from working. Fixed by correcting anchor tags and classes.
+
+**User Feedback**
+The site has been tested by friends and family for clarity and ease of navigation. Feedback indicated that the navigation is intuitive, the images are visually appealing, and the text is easy to read. Suggestions included adding more information about growing bulbs, which has been noted as a future improvement.
+
+**Mentions for Help**
+GreatStack YouTube Tutorials: Assisted in building the sign-up page. YouTube link
+Code Institute Resources and Slack
+W3Schools## Screenshots
+
 
 **Images**
 All images are sourced from Pexels:
