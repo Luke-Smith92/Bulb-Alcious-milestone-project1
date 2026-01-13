@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #e8f5e9; /* light gardening green */
+    background: #e8f5e9; 
     color: #2e2e2e;
 }
 
@@ -168,15 +168,20 @@ section h4 {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    justify-content: center; 
 }
 
 /* Left Box (Sign-Up) */
 .left-box {
     padding: 50px;
-    background: #66bb6a;
+    background: #66bb6a; 
     flex-basis: 50%;
     flex-grow: 1;
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 300px;
 }
 
 .left-input-box {
@@ -187,7 +192,7 @@ section h4 {
     outline: none;
     color: #000;
     font-size: 14px;
-    background: transparent;
+    background: #c8e6c9; 
     border-radius: 4px;
 }
 
@@ -217,6 +222,10 @@ section h4 {
     flex-grow: 1;
     background: #ffffff;
     color: #2e7d32;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 300px;
 }
 
 .right-input-box {
@@ -227,7 +236,7 @@ section h4 {
     outline: none;
     font-size: 14px;
     border-radius: 4px;
-    background: transparent;
+    background: #e8f5e9; 
 }
 
 .right-box button {
@@ -249,6 +258,55 @@ section h4 {
     color: #2e7d32;
 }
 
+/* === Contact Page === */
+.contact-content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-content p {
+    text-align: left; 
+    margin-bottom: 1rem;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.contact-content span {
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+/* Social Media Icons - centered and spaced */
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem; 
+    margin-top: 2rem;
+}
+
+.social a {
+    font-size: 40px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.social a.fa-facebook { background: #4caf50; } 
+.social a.fa-twitter { background: #81c784; }
+.social a.fa-instagram { background: #66bb6a; }
+
+.social a:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
 /* === Footer === */
 footer {
     background-color: #81c784;
@@ -256,4 +314,22 @@ footer {
     padding: 2rem;
     text-align: center;
     margin-top: 2rem;
+}
+/* FORCE signup page to center correctly */
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    margin: 0 auto;
+}
+.account h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #2e7d32; 
+    letter-spacing: 1px;
 }
