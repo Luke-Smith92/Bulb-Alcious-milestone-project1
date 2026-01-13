@@ -35,24 +35,24 @@ W3Schools## Screenshots
 ### Desktop Views
 
 **Index Page**
-![Index Page](images/index-screenshot.jpg)
+![Index Page](images/index-screenshot.png)
 
 **Sign-Up Page**
-![Sign-Up Page](images/signup.jpg)
+![Sign-Up Page](images/signup.png)
 
 **About / Contact Page**
-![About Page](images/About-us.jpg)
+![About Page](images/About-us.ppg)
 
 ### Mobile Views
 
 **Index Page (Mobile)**
-![Index Page Mobile](images/Index-mobile.jpg)
+![Index Page Mobile](images/Index-mobile.png)
 
 **Sign-Up Page (Mobile)**
-![Sign-Up Page Mobile](images/signup-mobile.jpg)
+![Sign-Up Page Mobile](images/signup-mobile.png)
 
 **About / Contact Page (Mobile)**
-![About Page Mobile](images/about-us-mobile.jpg)
+![About Page Mobile](images/about-us-mobile.png)
 
 **Images**
 All images are sourced from Pexels:
