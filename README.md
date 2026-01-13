@@ -41,12 +41,12 @@ W3Schools## Screenshots
 ![Sign-Up Page](images/signup.jpg)
 
 **About / Contact Page**
-![About Page](images/about-us.jpg)
+![About Page](images/About-us.jpg)
 
 ### Mobile Views
 
 **Index Page (Mobile)**
-![Index Page Mobile](images/index-mobile.jpg)
+![Index Page Mobile](images/Index-mobile.jpg)
 
 **Sign-Up Page (Mobile)**
 ![Sign-Up Page Mobile](images/signup-mobile.jpg)
