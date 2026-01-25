@@ -1,6 +1,6 @@
 # Bulb-Alicious Project
 
-
+![Am I Responsive](images/am-i-responsive.png)
 
 ## Project Overview
 
@@ -8,7 +8,7 @@ Bulb-Alicious is a front-end website designed for individuals who have a passion
 
 The website is suitable for users of all technical skill levels and has been designed with simplicity and clarity in mind. It also appeals to eco-conscious users who are interested in sustainable gardening practices and supporting environmentally-minded businesses.
 
- **Bulb-Alicious live site:** (https://luke-smith92.github.io/Bulb-Alcious-milestone-project1/)
+🔗 **Live Site:** *(add your GitHub Pages link here)*
 
 ---
 
@@ -25,44 +25,35 @@ The website is suitable for users of all technical skill levels and has been des
 
 ### User Stories
 
-The following user stories were used to guide layout, navigation, and content decisions throughout the project.
-
 #### First Time Visitor Goals
-- As a first-time visitor, I want to quickly understand the purpose of the website.
-- As a first-time visitor, I want to navigate the site easily to find information about bulbs and seasonal flowers.
-- As a first-time visitor, I want to see visual content that reassures me the site is clear and easy to use.
+- Quickly understand the purpose of the website  
+- Navigate the site easily to find information about bulbs and seasonal flowers  
+- See visual content that reassures clarity and usability  
 
 #### Returning Visitor Goals
-- As a returning visitor, I want to revisit specific sections such as bulbs or seasonal flowers without difficulty.
-- As a returning visitor, I want to find the contact or sign-up page quickly.
-- As a returning visitor, I want to access external or social links for further information.
+- Revisit specific sections such as bulbs or seasonal flowers  
+- Find the contact or sign-up page quickly  
+- Access external or social links for further information  
 
 #### Frequent User Goals
-- As a frequent user, I want to check for new flower varieties or seasonal updates.
-- As a frequent user, I want reassurance that my data is handled responsibly when using forms.
+- Check for new flower varieties or seasonal updates  
+- Ensure personal data is handled responsibly  
 
 ---
 
 ## Key Features
 
-- Simple and clear navigation
-- Dedicated pages for:
-  - Bulbs
-  - Seasonal Flowers
-  - Sign-Up
-  - About / Contact
-  - Account
-- Informational blurbs describing different flower and bulb types
-- Separate seasonal flowers section for inspiration
-- Responsive layout tested on mobile and tablet devices
+- Simple and clear navigation  
+- Dedicated pages: Bulbs, Seasonal Flowers, Sign-Up, About / Contact, Account  
+- Informational blurbs describing different flower and bulb types  
+- Separate seasonal flowers section for inspiration  
+- Responsive layout tested on mobile and tablet devices  
 
 ---
 
 ## Design & Usability
 
-The website layout was designed with simplicity in mind. Navigation is consistent across all pages, allowing users to move easily between sections. A clear visual hierarchy improves readability and usability, particularly for less experienced users.
-
-Imagery is used throughout the site to reinforce the gardening theme while keeping the overall design clean and uncluttered.
+The website layout is simple and user-friendly. Navigation is consistent across all pages, and a clear visual hierarchy improves readability. Imagery reinforces the gardening theme while keeping the design clean.
 
 ---
 
@@ -70,82 +61,107 @@ Imagery is used throughout the site to reinforce the gardening theme while keepi
 
 ### Manual Testing
 
-Most testing was carried out manually in Visual Studio Code. The following areas were tested:
-- Page layout and structure
-- Image display and alignment
-- Responsiveness across different screen sizes
+Most testing was carried out manually in Visual Studio Code:
+- Page layout and structure  
+- Image display and alignment  
+- Responsiveness across different screen sizes  
 
 ### Desktop Views
 
 **Index Page**  
-![Index Page](images/index-screenshot.png)
+![Index Page](images/index-screenshot.webp)
 
 **Sign-Up Page**  
-![Sign-Up Page](images/signup.png)
+![Sign-Up Page](images/signup.webp)
 
 **About / Contact Page**  
-![About Page](images/About-us.png)
-
----
+![About Page](images/About-us.webp)
 
 ### Mobile Views
 
 **Index Page (Mobile)**  
-![Index Page Mobile](images/Index-mobile.png)
+![Index Page Mobile](images/Index-mobile.webp)
 
 **Sign-Up Page (Mobile)**  
-![Sign-Up Page Mobile](images/signup-mobile.png)
+![Sign-Up Page Mobile](images/signup-mobile.webp)
 
 **About / Contact Page (Mobile)**  
-![About Page Mobile](images/about-us-mobile.png)
+![About Page Mobile](images/about-us-mobile.webp)
+
+---
+
+## Performance Testing
+
+Google PageSpeed Insights was used to assess performance and accessibility.
+
+**Before Optimisation**
+
+**Mobile:**  
+![Mobile Insights](images/mobile-insights.webp)
+
+**Desktop:**  
+![Desktop Insights](images/desktop-insights.webp)
+
+**After Converting Images to WebP & Resizing**
+
+**Mobile:**  
+![Mobile Insights After Change](images/mobile-insights-afterchange.webp)
+
+**Desktop:**  
+![Desktop Insights After Change](images/desktop-insights-afterchange.webp)
+
+Performance scores improved significantly:
+- Mobile: 62% → 73%  
+- Desktop: 62% → 93%
+
+The improvement is primarily due to converting images to the WebP format and resizing them to better fit the website layout, reducing page load times.
+
 
 ---
 
 ## Bugs and Fixes
 
-- **Sign-Up Page Layout:** Table layout caused excessive spacing between sign-up and login sections. Fixed by resolving conflicting CSS styles.
-- **Cart Functionality:** A basket feature was attempted but removed to maintain page styling consistency.
-- **Image Alignment:** Issues with inline image and text alignment were resolved by revising CSS layout methods.
-- **Social Media Links:** Syntax errors initially prevented links from working. Fixed by correcting anchor tags and class usage.
+- **Sign-Up Page Layout:** Resolved spacing issues by fixing CSS conflicts  
+- **Cart Functionality:** Basket removed to maintain styling  
+- **Image Alignment:** Corrected inline display issues  
+- **Social Media Links:** Fixed broken anchor tags and classes  
 
 ---
 
 ## Deployment Challenges
 
-Deploying the website required careful attention to responsive design and consistent styling across pages. Early issues included CSS conflicts and image alignment problems, which were resolved by refactoring stylesheets and linking CSS files consistently across all pages.
-
-Testing on mobile and tablet devices ensured content scaled correctly and navigation remained intuitive.
+Deploying the website required attention to mobile responsiveness and consistent styling. Initial CSS conflicts and image alignment issues were resolved by restructuring CSS and linking stylesheets consistently.
 
 ---
 
 ## User Feedback
 
-The website was reviewed by friends and family members to assess usability and clarity. Feedback highlighted:
-- Intuitive navigation
-- Visually appealing imagery
-- Clear and readable text
+Tested with friends and family:
+- Navigation found to be intuitive  
+- Images visually appealing  
+- Text easy to read  
 
-Suggestions included adding more detailed growing information, which has been noted for future development.
+Suggestions to add more detailed growing guides noted for future improvements.
 
 ---
 
 ## Future Improvements
 
-- Add detailed growing guides for each bulb or flower
-- Highlight beginner-friendly and advanced plant varieties
-- Develop full e-commerce functionality for purchasing products online
+- Add detailed growing guides for each bulb or flower  
+- Highlight beginner-friendly and advanced plant varieties  
+- Develop full e-commerce functionality for purchasing products online  
 
 ---
 
 ## Credits & Resources
 
 ### Learning Resources
-- GreatStack YouTube tutorials – assisted with sign-up page development  
+- GreatStack YouTube tutorials – helped with sign-up page  
 - Code Institute resources and Slack community  
 - W3Schools documentation  
 
 ### Media
-All images were sourced from **Pexels**:
+All images sourced from **Pexels**:
 - pexels-larissafarber-28930893  
 - pexels-jennifer-r-1259086-31182645  
 - pexels-cathy-b-748462208-31116905  
@@ -163,4 +179,5 @@ All images were sourced from **Pexels**:
 
 ## Reflection
 
-This project strengthened my understanding of responsive design, CSS organisation, and user-centred layout planning. Through testing and iteration, I improved consistency across pages and resolved layout and styling issues. The project also highlighted the importance of planning content structure before development begins.
+This project strengthened my understanding of responsive design, CSS organisation, and user-centred layout planning. Testing and iteration improved consistency and resolved layout/styling issues, highlighting the importance of planning content structure before development.
+
