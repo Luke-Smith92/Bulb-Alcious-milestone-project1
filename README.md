@@ -63,24 +63,24 @@ Most testing was carried out manually in Visual Studio Code:
 ### Desktop Views
 
 **Index Page**  
-![Index Page](images/index-screenshot.webp)
+![Index Page](images/index-screenshot.png)
 
 **Sign-Up Page**  
-![Sign-Up Page](images/signup.webp)
+![Sign-Up Page](images/signup.png)
 
 **About / Contact Page**  
-![About Page](images/About-us.webp)
+![About Page](images/About-us.png)
 
 ### Mobile Views
 
 **Index Page (Mobile)**  
-![Index Page Mobile](images/Index-mobile.webp)
+![Index Page Mobile](images/Index-mobile.png)
 
 **Sign-Up Page (Mobile)**  
-![Sign-Up Page Mobile](images/signup-mobile.webp)
+![Sign-Up Page Mobile](images/signup-mobile.png)
 
 **About / Contact Page (Mobile)**  
-![About Page Mobile](images/about-us-mobile.webp)
+![About Page Mobile](images/about-us-mobile.png)
 
 ---
 
@@ -91,18 +91,18 @@ Google PageSpeed Insights was used to assess performance and accessibility.
 **Before Optimisation**
 
 **Mobile:**  
-![Mobile Insights](images/mobile-insights.webp)
+![Mobile Insights](images/mobile-insights.png)
 
 **Desktop:**  
-![Desktop Insights](images/desktop-insights.webp)
+![Desktop Insights](images/desktop-insights.png)
 
 **After Converting Images to WebP & Resizing**
 
 **Mobile:**  
-![Mobile Insights After Change](images/mobile-insights-afterchange.webp)
+![Mobile Insights After Change](images/mobile-insights-afterchange.png)
 
 **Desktop:**  
-![Desktop Insights After Change](images/desktop-insights-afterchange.webp)
+![Desktop Insights After Change](images/desktop-insights-afterchange.png)
 
 Performance scores improved significantly:
 - Mobile: 62% → 73%  
@@ -117,10 +117,10 @@ The improvement is primarily due to converting images to the WebP format and res
 The website’s HTML and CSS were validated using online tools to ensure best practices and standards compliance.
 
 **HTML Validation:**  
-![HTML Validation](images/html-check.webp)
+![HTML Validation](images/html-check.png)
 
 **CSS Validation:**  
-![CSS Validation](images/css-check.webp)
+![CSS Validation](images/css-check.png)
 
 Validation confirmed that the website’s code follows current web standards and best practices, improving reliability and cross-browser compatibility.
 
