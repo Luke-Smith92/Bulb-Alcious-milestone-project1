@@ -99,10 +99,10 @@ Google PageSpeed Insights was used to assess performance and accessibility.
 **After Converting Images to WebP & Resizing**
 
 **Mobile:**  
-![Mobile Insights After Change](images/mobile-insights-afterchanges.png)
+![Mobile Insights After Change](images/mobile-insight-afterchanges.png)
 
 **Desktop:**  
-![Desktop Insights After Change](images/desktop-insights-afterchanges.png)
+![Desktop Insights After Change](images/desktop-insight-afterchanges.png)
 
 Performance scores improved significantly:
 - Mobile: 62% → 73%  
