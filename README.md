@@ -6,7 +6,7 @@ Bulb-Alicious is a front-end website designed for individuals who have a passion
 
 The website is suitable for users of all technical skill levels and has been designed with simplicity and clarity in mind. It also appeals to eco-conscious users who are interested in sustainable gardening practices and supporting environmentally-minded businesses.
 
-🔗 **Live Site:** *(add your GitHub Pages link here)*
+[🔗 **Live Site:** *(add your GitHub Pages link here)*](https://luke-smith92.github.io/Bulb-Alcious-milestone-project1/)
 
 ---
 
