@@ -1,12 +1,14 @@
 # Bulb-Alicious Project
 
+
+
 ## Project Overview
 
 Bulb-Alicious is a front-end website designed for individuals who have a passion for gardening, particularly those interested in growing flowers at home. The site is aimed at gardening enthusiasts, beginners with limited experience, and DIY gardeners who enjoy growing their own plants.
 
 The website is suitable for users of all technical skill levels and has been designed with simplicity and clarity in mind. It also appeals to eco-conscious users who are interested in sustainable gardening practices and supporting environmentally-minded businesses.
 
-[🔗 **Bulb-Alicious live site:** *(https://luke-smith92.github.io/Bulb-Alcious-milestone-project1/)
+ **Bulb-Alicious live site:** (https://luke-smith92.github.io/Bulb-Alcious-milestone-project1/)
 
 ---
 
