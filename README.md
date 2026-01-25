@@ -51,12 +51,6 @@ The website is suitable for users of all technical skill levels and has been des
 
 ---
 
-## Design & Usability
-
-The website layout is simple and user-friendly. Navigation is consistent across all pages, and a clear visual hierarchy improves readability. Imagery reinforces the gardening theme while keeping the design clean.
-
----
-
 ## Testing
 
 ### Manual Testing
@@ -116,13 +110,25 @@ Performance scores improved significantly:
 
 The improvement is primarily due to converting images to the WebP format and resizing them to better fit the website layout, reducing page load times.
 
+---
+
+## Code Validation
+
+The website’s HTML and CSS were validated using online tools to ensure best practices and standards compliance.
+
+**HTML Validation:**  
+![HTML Validation](images/html-check.webp)
+
+**CSS Validation:**  
+![CSS Validation](images/css-check.webp)
+
+Validation confirmed that the website’s code follows current web standards and best practices, improving reliability and cross-browser compatibility.
 
 ---
 
 ## Bugs and Fixes
 
-- **Sign-Up Page Layout:** Resolved spacing issues by fixing CSS conflicts  
-- **Cart Functionality:** Basket removed to maintain styling  
+- **Sign-Up Page Layout:** Resolved spacing issues by fixing CSS conflicts    
 - **Image Alignment:** Corrected inline display issues  
 - **Social Media Links:** Fixed broken anchor tags and classes  
 
