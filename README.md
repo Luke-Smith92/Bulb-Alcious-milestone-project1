@@ -67,15 +67,6 @@ Testing was carried out manually using Visual Studio Code and browser developer 
 - Image display and alignment  
 - Responsiveness across screen sizes  
 
-### User Story Testing
-All user stories were manually tested to ensure the site meets user expectations.
-
-- Users can easily understand the purpose of the site on arrival  
-- Navigation allows quick access to key sections  
-- Content displays correctly across devices  
-
-All user stories were successfully met.
-
 ---
 
 ## Screenshots
@@ -143,6 +134,26 @@ Images were resized and optimised for improved loading times.
 All files were validated to ensure compliance with current web standards.
 
 ---
+### User Story Testing
+
+All testing was carried out manually across multiple screen sizes using browser developer tools.
+
+
+**First Time Visitors**
+- Users can quickly understand the purpose of the website through the welcome section  
+- Navigation allows users to easily find information about bulbs and seasonal flowers  
+- Visual content displays clearly and consistently across devices  
+
+**Returning Visitors**
+- Users can revisit specific sections such as bulbs or seasonal flowers with ease  
+- Contact and sign-up pages are clearly accessible from the navigation  
+- Site layout remains consistent across all pages  
+
+**Frequent Users**
+- Users can browse content efficiently without confusion  
+- The site structure supports future expansion without impacting usability  
+
+All user stories were tested and met successfully.
 
 ## Bugs and Fixes
 
