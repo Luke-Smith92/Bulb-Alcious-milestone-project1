@@ -6,7 +6,7 @@
 
 Bulb-Alicious is a front-end website designed for individuals who have a passion for gardening, particularly those interested in growing flowers at home. The site is aimed at gardening enthusiasts, beginners with limited experience, and DIY gardeners who enjoy growing their own plants.
 
-The website is suitable for users of all technical skill levels and has been designed with simplicity and clarity in mind. It also appeals to eco-conscious users who are interested in sustainable gardening practices and supporting environmentally minded businesses.
+The website has been designed with simplicity and clarity in mind, making it accessible to users of all technical skill levels. It also appeals to eco-conscious users who are interested in sustainable gardening practices and supporting environmentally minded businesses.
 
 🔗 **Live Site:** https://luke-smith92.github.io/Bulb-Alcious-milestone-project1/
 
@@ -21,178 +21,182 @@ The website is suitable for users of all technical skill levels and has been des
 
 ---
 
-## User-Centred Design
+## User Experience (UX)
+
+### Target Audience
+- Gardening enthusiasts and hobbyists  
+- Beginners looking to grow flowers at home  
+- Users interested in sustainable and eco-friendly gardening  
 
 ### User Stories
 
-#### First Time Visitor Goals
+#### First-Time Visitors
 - Quickly understand the purpose of the website  
-- Navigate the site easily to find information about bulbs and seasonal flowers  
-- View clear visual content that reassures usability and layout  
+- Navigate easily to find information on bulbs and flowers  
+- View clear and engaging visual content  
 
-#### Returning Visitor Goals
+#### Returning Visitors
 - Revisit specific sections such as bulbs or seasonal flowers  
-- Locate the contact or sign-up page quickly  
-- Access external or social links for further information  
+- Easily access the contact or sign-up pages  
+- Experience consistent layout and navigation  
 
-#### Frequent User Goals
-- Check for new flower varieties or seasonal updates  
-- Feel confident that personal data is handled responsibly  
+#### Frequent Users
+- Check for new flower varieties or updates  
+- Feel confident using the site without confusion  
 
 ---
 
-## Key Features
+## Features
 
-- Simple and clear navigation  
-- Dedicated pages: Bulbs, Seasonal Flowers, Sign-Up, About / Contact, Account  
-- Informational blurbs describing different flower and bulb types  
-- Separate seasonal flowers section for inspiration  
-- Responsive layout tested across mobile and tablet devices  
+### Existing Features
+- Simple and intuitive navigation bar  
+- Welcome section explaining the purpose of the website  
+- Bulbs section showcasing different flower types  
+- About / Contact page for user enquiries  
+- Sign-Up page for user engagement  
+- Fully responsive layout  
 
 ---
 
 ## Testing
 
 ### Manual Testing
-
-Most testing was carried out manually using Visual Studio Code:
-- Page layout and structure  
+Testing was carried out manually using Visual Studio Code and browser developer tools:
+- Page structure and layout  
+- Navigation links  
 - Image display and alignment  
-- Responsiveness across different screen sizes  
+- Responsiveness across screen sizes  
+
+### User Story Testing
+All user stories were manually tested to ensure the site meets user expectations.
+
+- Users can easily understand the purpose of the site on arrival  
+- Navigation allows quick access to key sections  
+- Content displays correctly across devices  
+
+All user stories were successfully met.
+
+---
+
+## Screenshots
 
 ### Desktop Views
 
 **Index Page**  
-![Index Page](assets/images/index-screenshot.webp)
+![Index Page](assets/images/index-screenshot.png)
 
 **Sign-Up Page**  
-![Sign-Up Page](assets/images/signup.webp)
+![Sign-Up Page](assets/images/signup.png)
 
 **About / Contact Page**  
-![About Page](assets/images/about-us.webp)
+![About Page](assets/images/about-us.png)
 
 ### Mobile Views
 
 **Index Page (Mobile)**  
-![Index Page Mobile](assets/images/index-mobile.webp)
+![Index Page Mobile](assets/images/index-mobile.png)
 
 **Sign-Up Page (Mobile)**  
-![Sign-Up Page Mobile](assets/images/signup-mobile.webp)
+![Sign-Up Page Mobile](assets/images/signup-mobile.png)
 
 **About / Contact Page (Mobile)**  
-![About Page Mobile](assets/images/about-us-mobile.webp)
+![About Page Mobile](assets/images/about-us-mobile.png)
 
 ---
 
 ## Performance Testing
 
-Google PageSpeed Insights was used to assess performance and accessibility.
+Google PageSpeed Insights was used to test site performance and accessibility.
 
 ### Before Optimisation
 
 **Mobile**  
-![Mobile Insights](assets/images/mobile-insights.webp)
+![Mobile Insights](assets/images/mobile-insights.png)
 
 **Desktop**  
-![Desktop Insights](assets/images/desktop-insights.webp)
+![Desktop Insights](assets/images/desktop-insights.png)
 
 ### After Optimisation
 
-Images were converted to WebP format and resized appropriately.
+Images were resized and optimised for improved loading times.
 
 **Mobile**  
-![Mobile Insights After](assets/images/mobile-insights-afterchange.webp)
+![Mobile Insights After](assets/images/mobile-insight-afterchanges.png)
 
 **Desktop**  
-![Desktop Insights After](assets/images/desktop-insights-afterchange.webp)
+![Desktop Insights After](assets/images/desktop-insight-afterchanges.png)
 
 ### Results
-- Mobile: **62% → 73%**  
-- Desktop: **62% → 93%**
-
-The improvement was primarily due to image optimisation and better file sizing.
+- Mobile performance improved from **62% to 73%**  
+- Desktop performance improved from **62% to 93%**
 
 ---
 
 ## Code Validation
 
 ### HTML Validation
-![HTML Validation](assets/images/html-check.webp)
+![HTML Validation](assets/images/html-check.png)
 
 ### CSS Validation
-![CSS Validation](assets/images/css-check.webp)
+![CSS Validation](assets/images/css-check.png)
 
-All files passed validation, confirming compliance with current web standards.
+All files were validated to ensure compliance with current web standards.
 
 ---
 
 ## Bugs and Fixes
 
-- **Sign-Up Page Layout:** Resolved spacing issues caused by CSS conflicts  
-- **Cart Functionality:** Removed to maintain layout consistency  
-- **Image Alignment:** Fixed inline and responsive display issues  
-- **Social Media Links:** Corrected broken anchor tags and class references  
+### Fixed Bugs
+- Broken internal links corrected  
+- File and folder names converted to lowercase for GitHub Pages compatibility  
+- Project files reorganised into an assets folder  
+- Layout and spacing issues resolved on the Sign-Up page  
+
+### Unfixed Bugs
+- No known unfixed bugs at the time of submission  
 
 ---
 
-## Deployment Challenges
+## Deployment
 
-Deployment required attention to mobile responsiveness and consistent styling.  
-Initial layout issues were resolved by restructuring CSS and standardising file paths and naming conventions.
+The website was deployed using GitHub Pages.
 
----
-
-## User Feedback
-
-Testing with friends and family highlighted:
-- Intuitive navigation  
-- Visually appealing imagery  
-- Clear and readable text  
-
-Suggestions for adding detailed growing guides were noted for future development.
-
-### User Story Testing
-
-All user stories identified during the planning stage were manually tested to ensure the website meets user expectations.
-
-**First Time Visitors**
-- Users can quickly understand the purpose of the website through the welcome section  
-- Navigation allows users to easily find information about bulbs and seasonal flowers  
-- Visual content displays clearly and consistently across devices  
-
-**Returning Visitors**
-- Users can revisit specific sections such as bulbs or seasonal flowers with ease  
-- Contact and sign-up pages are clearly accessible from the navigation  
-- Site layout remains consistent across all pages  
-
-**Frequent Users**
-- Users can browse content efficiently without confusion  
-- The site structure supports future expansion without impacting usability  
-
-All user stories were tested and met successfully.
+### Deployment Steps
+1. Project pushed to a GitHub repository  
+2. GitHub Pages enabled in repository settings  
+3. Main branch selected as the deployment source  
+4. Live site successfully deployed  
 
 ---
 
 ## Future Improvements
 
-- Add detailed growing guides for each bulb or flower  
-- Highlight beginner-friendly and advanced plant varieties  
-- Develop full e-commerce functionality for purchasing products online  
+- **Functional Online Store**  
+  A full e-commerce store allowing users to purchase bulbs and flowers online.
+
+- **Growing Guides**  
+  Step-by-step guides for planting, caring for, and maintaining different bulbs and flowers.
+
+- **Grow Your Own Produce**  
+  Expansion of the site to include advice on growing vegetables and herbs.
+
+- **Selling Home-Grown Produce**  
+  Potential feature allowing the sale of home-grown produce to support sustainable living.
 
 ---
 
-## Credits & Resources
+## Credits
 
 ### Learning Resources
-- GreatStack YouTube tutorials  
-- Code Institute course materials and Slack community  
+- Code Institute course materials  
 - W3Schools documentation  
+- GreatStack YouTube tutorials  
 
 ### Media
-All images sourced from **Pexels** and used for educational purposes.
+All images sourced from **Pexels** and used for educational purposes only.
 
 ---
 
 ## Reflection
 
-This project strengthened my understanding of responsive design, CSS organisation, and user-centred layout planning. Iterative testing highlighted the importance of structured content planning and consistent styling across pages.
+This project improved my understanding of responsive design, CSS organisation, and user-centred layout planning. Testing and iteration highlighted the importance of structured content, consistent styling, and clear navigation.
