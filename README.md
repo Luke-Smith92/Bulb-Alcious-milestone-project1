@@ -211,3 +211,15 @@ All images sourced from **Pexels** and used for educational purposes only.
 ## Reflection
 
 This project improved my understanding of responsive design, CSS organisation, and user-centred layout planning. Testing and iteration highlighted the importance of structured content, consistent styling, and clear navigation.
+
+---
+
+## Commit History Disclaimer
+
+During final project restructuring, the local repository was reinitialised and force-pushed to GitHub.  
+This unintentionally replaced the original commit history, reducing the visible commits from 50+ to the current 7.
+
+The issue occurred while synchronising changes from Visual Studio Code to GitHub rather than through manual command-line management. The development process was carried out incrementally over time as outlined in this documentation.
+
+The college has previously had access to and visibility of the earlier commit history prior to this restructuring.
+
