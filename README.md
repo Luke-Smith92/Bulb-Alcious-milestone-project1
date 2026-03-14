@@ -58,6 +58,27 @@ The website has been designed with simplicity and clarity in mind, making it acc
 
 ---
 
+### User Story Testing
+
+All testing was carried out manually across multiple screen sizes using browser developer tools.
+
+**First Time Visitors**
+- Users can quickly understand the purpose of the website through the welcome section  
+- Navigation allows users to easily find information about bulbs and seasonal flowers  
+- Visual content displays clearly and consistently across devices  
+
+**Returning Visitors**
+- Users can revisit specific sections such as bulbs or seasonal flowers with ease  
+- Contact and sign-up pages are clearly accessible from the navigation  
+- Site layout remains consistent across all pages  
+
+**Frequent Users**
+- Users can browse content efficiently without confusion  
+- The site structure supports future expansion without impacting usability  
+
+All user stories were tested and met successfully.
+
+
 ## Testing
 
 ### Manual Testing
@@ -134,26 +155,6 @@ Images were resized and optimised for improved loading times.
 All files were validated to ensure compliance with current web standards.
 
 ---
-### User Story Testing
-
-All testing was carried out manually across multiple screen sizes using browser developer tools.
-
-
-**First Time Visitors**
-- Users can quickly understand the purpose of the website through the welcome section  
-- Navigation allows users to easily find information about bulbs and seasonal flowers  
-- Visual content displays clearly and consistently across devices  
-
-**Returning Visitors**
-- Users can revisit specific sections such as bulbs or seasonal flowers with ease  
-- Contact and sign-up pages are clearly accessible from the navigation  
-- Site layout remains consistent across all pages  
-
-**Frequent Users**
-- Users can browse content efficiently without confusion  
-- The site structure supports future expansion without impacting usability  
-
-All user stories were tested and met successfully.
 
 ## Bugs and Fixes
 
