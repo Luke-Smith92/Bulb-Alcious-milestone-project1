@@ -24,7 +24,7 @@ The website has been designed with simplicity and clarity in mind, making it acc
 
 A basic wireframe was created during the planning stage to outline the layout and structure of the Bulb-Alicious website.
 
-![Basic Wireframe](assets/images/wire-frame basic .png)
+![Basic Wireframe](assets/images/wire-frame-basic.png)
 ## User Experience (UX)
 
 ### Target Audience
